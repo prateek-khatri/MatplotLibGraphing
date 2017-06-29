@@ -51,7 +51,6 @@ def graph_single(dataFrameList, legendList, markerSize, graphTitle, xLabel, yLab
     listAxis[0].axes.grid(True)
 
     plt.legend(tuple(listAxis), tuple(legendList), bbox_to_anchor=(1, 1), loc=2, borderaxespad=0, prop={'size':8})
-    #plt.legend(tuple(listAxis), tuple(legendList), loc='upper center', bbox_to_anchor=(0.5, -0.05), ncol=5)
     plt.xlabel(xLabel)
     plt.ylabel(yLabel)
 
