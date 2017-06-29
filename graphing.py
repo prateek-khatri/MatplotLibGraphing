@@ -1,6 +1,7 @@
 from math import *
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MultipleLocator, FormatStrFormatter
+import pandas as pd
 
 def calc_format_offset(diff, shapeOff, div):
     try:
